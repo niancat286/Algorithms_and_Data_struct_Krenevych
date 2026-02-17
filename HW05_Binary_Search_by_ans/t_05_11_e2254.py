@@ -20,6 +20,8 @@ def solve():
     for i in range(R):
         pref_sums[i + 1] = pref_sums[i] + fields[i]
 
+        #pref[r+1] - plef[l]
+
     # Функція видає суму координат полів від індексу `left` до `right`
     def get_sum(left, right):
         return pref_sums[right + 1] - pref_sums[left]
