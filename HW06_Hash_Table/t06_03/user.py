@@ -10,10 +10,17 @@ slots: list
 
 EMPTY = None
 DELETED = "DELETED"
+M = 31
 
 def hash_func(key: str) -> int:
     """ Повертає індекс масиву для заданого рядкового ключа. """
-    return abs(hash(key)) % size
+    #return abs(hash(key)) % size
+    global M
+    h = 0
+    for i in range(len(key)):
+        h = (h * M + ord(key[i])) % size
+
+    return h
 
 
 def init():
