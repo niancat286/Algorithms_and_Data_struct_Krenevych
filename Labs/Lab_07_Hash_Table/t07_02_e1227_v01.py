@@ -104,7 +104,7 @@ if __name__ == "__main__":
     print(*sorted(dct),sep="\n")
 
     # words = set()
-    # f = open("input.txt")
+    # f = open("input1.txt")
     #
     #
     # for line in f:

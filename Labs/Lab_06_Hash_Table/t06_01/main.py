@@ -146,8 +146,8 @@ def main():
 
     user.init()
 
-    # generate_pairs("input.txt", 100000)
-    readData("input.txt")
+    # generate_pairs("input1.txt", 100000)
+    readData("input1.txt")
 
     test_num = 10000
     error = 0
