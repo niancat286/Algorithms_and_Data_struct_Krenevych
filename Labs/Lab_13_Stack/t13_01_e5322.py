@@ -24,7 +24,6 @@ def convert(num: str, from_base: int , to_base: int) -> str:
     return res
 
 
-
 def get_char(n: int) -> str:
     if n < 10:
         return str(n)

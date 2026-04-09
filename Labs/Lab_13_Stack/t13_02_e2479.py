@@ -1,7 +1,6 @@
 BRACKETS = {"(" : ")", "[" : "]"}
 
 
-
 def check(seq: str) -> bool:
     stack = []
 

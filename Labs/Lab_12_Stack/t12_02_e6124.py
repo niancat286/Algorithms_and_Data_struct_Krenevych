@@ -4,8 +4,6 @@ class Node:
         self.next = None
 
 
-
-
 class Stack:
 
     def __init__(self):
